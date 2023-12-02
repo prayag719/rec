@@ -78,7 +78,7 @@ def main():
     st.subheader("Recommend Courses")
 
     # Load data
-    df = load_data("udemy_courses.csv")
+    df = load_data("https://raw.githubusercontent.com/prayag719/rec/main/recommendation/udemy_courses.csv")
 	
     # Input for search term
     search_term = st.text_input("Search")
