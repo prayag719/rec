@@ -63,9 +63,9 @@ box-shadow:0 0 15px 5px #ccc; background-color: #a8f0c6;
 
 
 # Search For Course 
-@st.cache
+@st.cache_data
 def search_term_if_not_found(term, df):
-    result_df = df[df['course_title'].str.contains(term)]
+    result_df = df[df['course_title'].str.contains(term, case=False)]
     return result_df
 
 
