@@ -79,7 +79,7 @@ def main():
 
     # Load data
     df = load_data("udemy_courses.csv")
-
+	
     # Input for search term
     search_term = st.text_input("Search")
 
