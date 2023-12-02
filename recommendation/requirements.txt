@@ -1,3 +1,6 @@
 streamlit
 streamlit_option_mune
 firebase_admin
+streamlit==1.29.0
+pandas
+scikit-learn
